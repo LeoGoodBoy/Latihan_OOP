@@ -23,4 +23,5 @@ public class Burung extends Hewan{
     public String nyaniyan(){
         return "lalal";
     }
+    //TEST
 }
