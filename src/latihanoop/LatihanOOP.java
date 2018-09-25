@@ -18,11 +18,15 @@ public class LatihanOOP {
         // TODO code application logic here
         Kucing kucing = new Kucing();
         Hewan hewan = new Hewan();
+        Burung burung = new Burung();
         kucing.setNama("miaumiau");
         System.out.println(kucing.getNama());
         System.out.println(kucing.getMakan());
         System.out.println(kucing.mauMakanApa());
         System.out.println(kucing.mauMakanApa());
         System.out.println(hewan.mauMakanApa());  
+        System.out.println(burung.caraJalan());
+        System.out.println(burung.jalanMenggunakan());
+        System.out.println(burung.jenisParuh());
     }
 }

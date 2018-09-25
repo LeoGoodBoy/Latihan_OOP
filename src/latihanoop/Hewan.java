@@ -9,11 +9,14 @@ package latihanoop;
  *
  * @author chochong
  */
-public class Hewan {
+public class Hewan implements JalanInterface{
     private String nama;
     private int umur;
     private char jeniskelamin;
 
+    /**
+     * 
+     */
     public Hewan(){
         
     }
@@ -83,6 +86,16 @@ public class Hewan {
      */
     protected String mauMakanApa(){
         return "makan sesuatu";
+    }
+
+    @Override
+    public String caraJalan() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public String jalanMenggunakan() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     

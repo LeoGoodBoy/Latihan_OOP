@@ -9,7 +9,7 @@ package latihanoop;
  *
  * @author chochong
  */
-public class Burung extends Hewan{
+public class Burung extends Hewan implements JalanInterface,JenisParuh{
     private String suara;
 
     public String getSuara() {
@@ -24,4 +24,19 @@ public class Burung extends Hewan{
         return "lalal";
     }
     //TEST
+
+    @Override
+    public String caraJalan() {
+        return "loncat dan terbang";
+    }
+
+    @Override
+    public String jalanMenggunakan() {
+        return "dua kaki atau sayap";
+    }
+
+    @Override
+    public String jenisParuh() {
+        return "paruhnya kecil";
+    }
 }
